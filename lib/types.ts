@@ -43,6 +43,7 @@ export interface Leader {
   id: string;
   name: string;
   title: string;
+  intro?: string;
   bio: string;
   image?: string;
 }
