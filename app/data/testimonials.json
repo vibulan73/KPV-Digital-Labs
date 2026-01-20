@@ -1,0 +1,28 @@
+[
+  {
+    "id": "testimonial-1",
+    "name": "Jane Doe, CEO of TechCorp",
+    "quote": "KPV Digital Labs transformed our software development process. Their expertise and dedication helped us launch our product ahead of schedule.",
+    "image": "/1.jpeg"
+  },
+  {
+    "id": "testimonial-2",
+    "name": "John Smith, CTO of InnovateX",
+    "quote": "The team at KPV Digital Labs is exceptional. They understood our vision and delivered a solution that exceeded our expectations.",
+    "image": "/2.jpeg"
+  },
+  {
+    "id": "testimonial-3",
+    "name": "Emily Johnson, Product Manager at SoftSolutions",
+    "quote": "KPV Digital Labs provided exceptional service and delivered a product that perfectly met our needs.",
+    "image": "/3.jpeg"
+  },
+  {
+    "name": "Abc",
+    "title": "afa",
+    "company": "adasd",
+    "quote": "afddddddddddddddddddddddddd",
+    "image": "/placeholder-user.jpg",
+    "id": "1768817613132-422mkt8dq"
+  }
+]

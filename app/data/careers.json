@@ -1,0 +1,100 @@
+[
+  {
+    "id": "intern-1",
+    "role": "Software Engineer Intern",
+    "title": "Software Engineer Intern",
+    "location": "Remote",
+    "type": "Internship",
+    "team": "Engineering",
+    "skills": [
+      "React",
+      "Java",
+      "Tailwind"
+    ],
+    "color": "from-yellow-400 to-orange-500",
+    "disc": "Work with mentors on real product features: implement UI components, write tests, and contribute to backend services. Great for learning full-stack engineering practices.",
+    "summary": "Work with senior engineers to ship real product features and learn full-stack engineering best practices.",
+    "responsibilities": [
+      "Build and test UI components",
+      "Assist backend tasks and debugging",
+      "Collaborate with mentors on feature delivery"
+    ],
+    "qualifications": [
+      "Basic knowledge of React or Java",
+      "Eager to learn full-stack development",
+      "Good problem-solving skills"
+    ],
+    "href": "#"
+  },
+  {
+    "id": "frontend-1",
+    "role": "Frontend Engineer",
+    "title": "Frontend Engineer",
+    "location": "Remote / Hybrid (NYC)",
+    "type": "Full-time",
+    "team": "Product",
+    "skills": [
+      "React",
+      "TypeScript",
+      "CSS",
+      "Next.js"
+    ],
+    "color": "from-sky-400 to-indigo-500",
+    "disc": "Design and implement performant, accessible user interfaces. Collaborate with product and design to ship pixel-perfect UIs and optimize client rendering and bundle size.",
+    "summary": "Build delightful user experiences using modern React. Own features from design to production.",
+    "responsibilities": [
+      "Ship pixel-perfect UI components",
+      "Collaborate with designers & backend",
+      "Write tests and document APIs"
+    ],
+    "qualifications": [
+      "3+ years React/TypeScript",
+      "Familiar with Next.js or similar frameworks",
+      "Strong communication skills"
+    ],
+    "href": "#"
+  },
+  {
+    "id": "backend-1",
+    "role": "Backend Engineer",
+    "title": "Backend Engineer",
+    "location": "Remote / NYC",
+    "type": "Full-time",
+    "team": "Infrastructure",
+    "skills": [
+      "Node.js",
+      "Postgres",
+      "API design",
+      "Docker"
+    ],
+    "color": "from-indigo-500 to-violet-500",
+    "disc": "Build scalable APIs and services, design data models, and optimize queries. Ownership of reliability, performance, and backend architecture decisions.",
+    "summary": "Design scalable services and take ownership of backend components, APIs, and data models.",
+    "responsibilities": [
+      "Design & implement APIs",
+      "Optimize performance and reliability",
+      "Work on data modeling and infrastructure"
+    ],
+    "qualifications": [
+      "3+ years Node.js/TypeScript",
+      "Database experience",
+      "Interest in distributed systems"
+    ],
+    "href": "#"
+  },
+  {
+    "role": "ASE",
+    "title": "Develop",
+    "location": "Remote",
+    "type": "Full-time",
+    "team": "Engineering",
+    "qualifications": [],
+    "responsibilities": [],
+    "skills": [],
+    "color": "from-blue-500 to-indigo-500",
+    "disc": "",
+    "summary": "",
+    "href": "#",
+    "id": "1768818068589-ooc48qxvk"
+  }
+]

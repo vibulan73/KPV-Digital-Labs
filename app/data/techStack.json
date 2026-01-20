@@ -1,0 +1,110 @@
+[
+  {
+    "id": "tech-1",
+    "name": "JavaScript",
+    "iconClass": "devicon-javascript-plain colored",
+    "category": "Language"
+  },
+  {
+    "id": "tech-2",
+    "name": "React",
+    "iconClass": "devicon-react-original colored",
+    "category": "Frontend"
+  },
+  {
+    "id": "tech-3",
+    "name": "Next.js",
+    "iconClass": "devicon-nextjs-line",
+    "category": "Frontend"
+  },
+  {
+    "id": "tech-4",
+    "name": "Tailwind CSS",
+    "iconClass": "devicon-tailwindcss-original colored",
+    "category": "Frontend"
+  },
+  {
+    "id": "tech-5",
+    "name": "Node.js",
+    "iconClass": "devicon-nodejs-plain colored",
+    "category": "Backend"
+  },
+  {
+    "id": "tech-6",
+    "name": "Java",
+    "iconClass": "devicon-java-plain colored",
+    "category": "Language"
+  },
+  {
+    "id": "tech-7",
+    "name": "TypeScript",
+    "iconClass": "devicon-typescript-plain colored",
+    "category": "Language"
+  },
+  {
+    "id": "tech-8",
+    "name": "Python",
+    "iconClass": "devicon-python-plain colored",
+    "category": "Language"
+  },
+  {
+    "id": "tech-9",
+    "name": "Spring Boot",
+    "iconClass": "devicon-spring-original colored",
+    "category": "Backend"
+  },
+  {
+    "id": "tech-10",
+    "name": ".NET",
+    "iconClass": "devicon-dotnetcore-plain colored",
+    "category": "Backend"
+  },
+  {
+    "id": "tech-11",
+    "name": "MongoDB",
+    "iconClass": "devicon-mongodb-plain colored",
+    "category": "Database"
+  },
+  {
+    "id": "tech-12",
+    "name": "PostgreSQL",
+    "iconClass": "devicon-postgresql-plain colored",
+    "category": "Database"
+  },
+  {
+    "id": "tech-13",
+    "name": "Docker",
+    "iconClass": "devicon-docker-plain colored",
+    "category": "DevOps"
+  },
+  {
+    "id": "tech-14",
+    "name": "Kubernetes",
+    "iconClass": "devicon-kubernetes-plain colored",
+    "category": "DevOps"
+  },
+  {
+    "id": "tech-15",
+    "name": "AWS",
+    "iconClass": "devicon-amazonwebservices-plain-wordmark colored",
+    "category": "Cloud"
+  },
+  {
+    "id": "tech-16",
+    "name": "Git",
+    "iconClass": "devicon-git-plain colored",
+    "category": "Tools"
+  },
+  {
+    "id": "tech-17",
+    "name": "GraphQL",
+    "iconClass": "devicon-graphql-plain colored",
+    "category": "API"
+  },
+  {
+    "id": "tech-18",
+    "name": "Redis",
+    "iconClass": "devicon-redis-plain colored",
+    "category": "Database"
+  }
+]

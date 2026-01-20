@@ -1,0 +1,47 @@
+[
+    {
+        "id": "kpv-talk-1",
+        "title": "Building Scalable Microservices with Kubernetes",
+        "speaker": "John Anderson, Cloud Architect",
+        "date": "2024-01-20",
+        "description": "In this talk, we explore best practices for deploying and scaling microservices using Kubernetes. Learn about service mesh patterns, auto-scaling strategies, and monitoring techniques that have proven successful in production environments.",
+        "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "thumbnailUrl": "/kpv-talk-1.jpg"
+    },
+    {
+        "id": "kpv-talk-2",
+        "title": "Next.js 14: The Future of React Development",
+        "speaker": "Sarah Williams, Senior Frontend Engineer",
+        "date": "2024-01-15",
+        "description": "Discover the revolutionary features in Next.js 14, including the App Router, Server Components, and Server Actions. This session covers practical migration strategies and real-world use cases from our latest projects.",
+        "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "thumbnailUrl": "/kpv-talk-2.jpg"
+    },
+    {
+        "id": "kpv-talk-3",
+        "title": "AI-Driven Development: Tools and Techniques",
+        "speaker": "Dr. Michael Chen, AI Research Lead",
+        "date": "2024-01-10",
+        "description": "Explore how AI is transforming software development. From code generation with GitHub Copilot to automated testing and CI/CD optimization, learn how to leverage AI tools to boost your team's productivity.",
+        "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "thumbnailUrl": "/kpv-talk-3.jpg"
+    },
+    {
+        "id": "kpv-talk-4",
+        "title": "DevOps Best Practices for 2024",
+        "speaker": "Emma Rodriguez, DevOps Engineer",
+        "date": "2024-01-05",
+        "description": "A comprehensive guide to modern DevOps practices including Infrastructure as Code, GitOps workflows, and security automation. See how we've implemented these principles across multiple enterprise projects.",
+        "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "thumbnailUrl": "/kpv-talk-4.jpg"
+    },
+    {
+        "id": "kpv-talk-5",
+        "title": "Database Performance Optimization at Scale",
+        "speaker": "James Park, Database Architect",
+        "date": "2023-12-28",
+        "description": "Deep dive into database optimization techniques for high-traffic applications. Learn about indexing strategies, query optimization, caching layers, and horizontal scaling approaches that have handled billions of requests.",
+        "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "thumbnailUrl": "/kpv-talk-5.jpg"
+    }
+]

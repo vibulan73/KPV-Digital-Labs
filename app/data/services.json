@@ -1,0 +1,44 @@
+[
+    {
+        "id": "service-1",
+        "title": "Artificial Intelligence",
+        "desc": "End-to-end product delivery: discovery, architecture, implementation, and continuous improvement.",
+        "href": "/services/artificial-intelligence"
+    },
+    {
+        "id": "service-2",
+        "title": "Devops as a Service",
+        "desc": "Design and operate resilient cloud platforms, migrations, and cost-optimized infrastructure.",
+        "href": "/services/devops"
+    },
+    {
+        "id": "service-3",
+        "title": "Enterprise Software Development",
+        "desc": "Design and build scalable, maintainable enterprise applications — APIs, integrations, microservices, and observability for long‑lived systems.",
+        "href": "/services/enterprise-software-development"
+    },
+    {
+        "id": "service-4",
+        "title": "Managed Service Augmentation",
+        "desc": "Embed security into development and operations and achieve regulatory compliance.",
+        "href": "/services/managed-service-augmentation"
+    },
+    {
+        "id": "service-5",
+        "title": "MVP Factory",
+        "desc": "Rapid prototyping and platform engineering to validate ideas fast — CI/CD, observability, and repeatable delivery patterns for early stage products.",
+        "href": "/services/mvp-factory"
+    },
+    {
+        "id": "service-6",
+        "title": "QA as a Service",
+        "desc": "Comprehensive quality engineering: test automation, manual testing, performance, accessibility and security testing to ensure reliable releases.",
+        "href": "/services/qa"
+    },
+    {
+        "id": "service-7",
+        "title": "Search Engine Optimization",
+        "desc": "Improve organic visibility with technical SEO, content strategy, structured data, and analytics-driven optimization.",
+        "href": "/services/seo"
+    }
+]

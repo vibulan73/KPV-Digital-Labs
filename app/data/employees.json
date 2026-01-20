@@ -1,0 +1,84 @@
+[
+  {
+    "id": "employee-1",
+    "name": "Jasmine Stone",
+    "initials": "JS",
+    "title": "Head of Engineering",
+    "bio": "Jasmine leads cross-functional engineering teams, focuses on resilient architectures and developer experience. She helps translate product vision into reliable, maintainable systems.",
+    "skills": [
+      "Platform",
+      "Cloud",
+      "Tribe Lead"
+    ],
+    "color": "from-blue-500 to-teal-400"
+  },
+  {
+    "id": "employee-2",
+    "name": "Ari Rivera",
+    "initials": "AR",
+    "title": "Product & UX Lead",
+    "bio": "Ari designs human-centered products that balance user needs with business outcomes. Pragmatic, data-informed decisions guide the team's roadmap.",
+    "skills": [
+      "Design Systems",
+      "Research"
+    ],
+    "color": "from-purple-500 to-pink-400"
+  },
+  {
+    "id": "employee-3",
+    "name": "Maya Khan",
+    "initials": "MK",
+    "title": "DevOps & Reliability",
+    "bio": "Maya ensures systems are observable, secure, and scalable. She builds pipelines and practices that let teams move quickly with confidence.",
+    "skills": [
+      "SRE",
+      "CI/CD"
+    ],
+    "color": "from-yellow-500 to-orange-400"
+  },
+  {
+    "id": "employee-4",
+    "name": "Drew Lee",
+    "initials": "DL",
+    "title": "Senior Software Engineer",
+    "bio": "Drew focuses on clean APIs and performance. He mentors engineers and champions pragmatic testing and observability across services.",
+    "skills": [
+      "API",
+      "Performance"
+    ],
+    "color": "from-green-500 to-emerald-400"
+  },
+  {
+    "id": "employee-5",
+    "name": "Sam Venk",
+    "initials": "SV",
+    "title": "Data & ML",
+    "bio": "Sam builds reliable data pipelines and ML primitives that help teams deliver smarter products while maintaining strong governance.",
+    "skills": [
+      "Data",
+      "ML Ops"
+    ],
+    "color": "from-red-500 to-rose-400"
+  },
+  {
+    "id": "employee-6",
+    "name": "Cleo Tran",
+    "initials": "CT",
+    "title": "Client Success",
+    "bio": "Cleo partners with customers to ensure outcomes are met. She brings program discipline and empathy to every engagement.",
+    "skills": [
+      "Customer",
+      "Delivery"
+    ],
+    "color": "from-indigo-500 to-sky-400"
+  },
+  {
+    "name": "Vibu",
+    "initials": "V",
+    "title": "SE",
+    "bio": "passionate developer",
+    "skills": [],
+    "color": "from-blue-500 to-teal-400",
+    "id": "1768817901795-385z0rm4y"
+  }
+]

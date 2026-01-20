@@ -1,0 +1,33 @@
+[
+  {
+    "id": "leader-1",
+    "name": "Asha Mehra",
+    "title": "Founder & CEO",
+    "bio": "Asha is a product-driven founder with 15+ years building high-growth digital products. She combines strategic vision with hands-on execution, leading cross-functional teams to launch scalable platforms. Asha is focused on sustainable technology, long-term product-market fit, and mentoring the next generation of startup leaders.",
+    "image": "/1.jpeg"
+  },
+  {
+    "id": "leader-2",
+    "name": "Ravi Kapoor",
+    "title": "CTO",
+    "bio": "Ravi architects resilient, scalable systems and has deep experience in cloud-native infrastructure, distributed systems, and observability. He drives engineering best practices, continuous delivery, and developer productivity, while fostering a culture of reliability, security, and technical excellence.",
+    "image": "/1.jpeg"
+  },
+  {
+    "id": "leader-3",
+    "name": "Lina Shah",
+    "title": "Head of Design",
+    "bio": "Lina leads design strategy and user research to create intuitive, accessible experiences across web and mobile. She blends human-centered design, visual storytelling, and brand thinking to craft cohesive product ecosystems, collaborating closely with product and engineering to turn insights into impactful designs.",
+    "image": "/1.jpeg"
+  },
+  {
+    "name": "Abc",
+    "title": "Architect",
+    "intro": "",
+    "bio": "",
+    "image": "",
+    "linkedin": "",
+    "twitter": "",
+    "id": "1768818179832-wmtutvacg"
+  }
+]

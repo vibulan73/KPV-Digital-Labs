@@ -1,0 +1,44 @@
+[
+    {
+        "id": "blog-1",
+        "title": "Getting Started with Next.js 14",
+        "excerpt": "Learn the fundamentals of Next.js 14 and build modern web applications with the latest features.",
+        "content": "Next.js 14 brings incredible improvements to the React ecosystem. In this guide, we'll explore the App Router, Server Components, and streaming features that make Next.js the go-to framework for production applications.\n\nThe App Router introduces a new way to structure your applications with improved performance and developer experience. Server Components allow you to build faster applications by rendering on the server and shipping less JavaScript to the client.\n\nKey features covered:\n- App Router architecture\n- Server and Client Components\n- Data fetching strategies\n- Route handlers and API routes\n- Styling with Tailwind CSS",
+        "author": "KPV Digital Labs Team",
+        "date": "2024-01-15",
+        "image": "/bl1.png",
+        "tags": [
+            "Next.js",
+            "React",
+            "Web Development"
+        ]
+    },
+    {
+        "id": "blog-2",
+        "title": "Microservices Architecture Best Practices",
+        "excerpt": "Discover proven patterns and practices for building scalable microservices-based applications.",
+        "content": "Microservices architecture has become the de facto standard for building large-scale, distributed systems. This comprehensive guide covers everything you need to know about designing, implementing, and maintaining microservices.\n\nWe'll dive deep into service decomposition strategies, inter-service communication patterns, and handling distributed data management. Learn how to implement circuit breakers, service discovery, and API gateways.\n\nTopics covered:\n- Service decomposition strategies\n- Communication patterns (REST, gRPC, messaging)\n- Data consistency in distributed systems\n- Monitoring and observability\n- Container orchestration with Kubernetes",
+        "author": "Senior Solutions Architect",
+        "date": "2024-01-10",
+        "image": "/bl4.png",
+        "tags": [
+            "Microservices",
+            "Architecture",
+            "Cloud"
+        ]
+    },
+    {
+        "id": "blog-3",
+        "title": "AI-Powered Development Tools in 2024",
+        "excerpt": "Explore how AI is transforming software development and boosting developer productivity.",
+        "content": "Artificial Intelligence is revolutionizing how we write, test, and deploy code. From GitHub Copilot to ChatGPT, AI-powered tools are becoming indispensable in modern development workflows.\n\nThis article explores the current landscape of AI development tools, their practical applications, and how to integrate them into your daily workflow for maximum productivity.\n\nWe'll cover:\n- Code completion and generation tools\n- AI-assisted testing and debugging\n- Automated code reviews\n- Documentation generation\n- Best practices for AI-assisted development",
+        "author": "AI/ML Engineering Team",
+        "date": "2024-01-05",
+        "image": "/bl6.png",
+        "tags": [
+            "AI",
+            "Developer Tools",
+            "Productivity"
+        ]
+    }
+]

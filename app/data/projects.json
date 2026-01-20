@@ -1,0 +1,50 @@
+[
+  {
+    "id": "1768821456892-p1",
+    "title": "Product Discovery Platform",
+    "description": "Research-driven platform that helped a fintech startup validate market fit and accelerate MVP delivery.",
+    "aboutClient": "Early-stage fintech startup focused on digital banking solutions",
+    "problemStatement": "Client needed to validate product-market fit before investing in full-scale development",
+    "ourSolution": "Built a research-driven discovery platform with rapid prototyping capabilities and integrated user feedback systems",
+    "resultsAndOutcomes": "Reduced time-to-MVP by 40%, validated core assumptions with 500+ users, secured Series A funding",
+    "technologies": [
+      "React",
+      "Node.js",
+      "PostgreSQL",
+      "AWS"
+    ],
+    "image": "/pr1.jpeg"
+  },
+  {
+    "id": "1768821456893-p2",
+    "title": "Scalable Commerce API",
+    "description": "Headless commerce API built for high throughput, reducing latency and improving checkout conversion.",
+    "aboutClient": "Mid-sized e-commerce company processing 10M+ transactions annually",
+    "problemStatement": "Legacy system couldn't handle traffic spikes, causing lost sales during peak seasons",
+    "ourSolution": "Developed a headless commerce API with microservices architecture, implementing caching and load balancing",
+    "resultsAndOutcomes": "99.9% uptime, 60% reduction in latency, 25% increase in checkout conversion rate",
+    "technologies": [
+      "Next.js",
+      "GraphQL",
+      "Redis",
+      "Kubernetes"
+    ],
+    "image": "/pr2.png"
+  },
+  {
+    "id": "1768821456894-p3",
+    "title": "Enterprise Data Pipeline",
+    "description": "Robust ETL pipeline that unified analytics and slashed reporting time from hours to minutes.",
+    "aboutClient": "Fortune 500 enterprise with distributed data sources across 20+ countries",
+    "problemStatement": "Data silos prevented real-time decision making, manual reporting took 8+ hours",
+    "ourSolution": "Implemented automated ETL pipeline with real-time data integration and unified analytics dashboard",
+    "resultsAndOutcomes": "Real-time reporting (under 5 minutes), 95% reduction in manual work, data accuracy improved to 99.8%",
+    "technologies": [
+      "Python",
+      "Apache Airflow",
+      "Snowflake",
+      "Tableau"
+    ],
+    "image": "/pr3.jpeg"
+  }
+]
