@@ -148,7 +148,7 @@ export default function CaseStudies() {
                                         {p.title}
                                     </h3>
                                     <p className="text-white/80 text-sm md:text-base mb-4 leading-relaxed line-clamp-3">
-                                        {p.challenge || p.description}
+                                        {p.challenge}
                                     </p>
                                     <Link
                                         href={`/resources/case-studies/${p.id}`}
