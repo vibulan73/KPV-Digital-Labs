@@ -83,7 +83,7 @@ export default function MeetTheLeaders() {
               </div>
               <div>
                 <p className="mt-2 text-md text-gray-200 leading-relaxed">
-                  {l.intro || l.bio}
+                  {l.bio}
                 </p>
               </div>
             </div>
