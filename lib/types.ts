@@ -46,6 +46,8 @@ export interface Leader {
   intro?: string;
   bio: string;
   image?: string;
+  linkedin?: string;
+  twitter?: string;
 }
 
 export interface Employee {
