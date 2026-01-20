@@ -2,7 +2,7 @@ import { NextResponse } from 'next/server';
 import type { NextRequest } from 'next/server';
 import { verifyToken } from './lib/jwt';
 
-export default async function middleware(request: NextRequest) {
+export default async function proxy(request: NextRequest) {
     const { pathname } = request.nextUrl;
 
     // Allow access to login page
