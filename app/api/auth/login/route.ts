@@ -16,7 +16,7 @@ export async function POST(request: NextRequest) {
         }
 
         // Read admin credentials
-        const admins = readData<{ username: string; password: string }>('admin');
+        const admins = await readData<{ username: string; password: string }>('admin');
         const admin = admins.find(a => a.username === username);
 
         if (!admin) {

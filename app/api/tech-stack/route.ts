@@ -4,7 +4,7 @@ import { verifyToken } from '@/lib/jwt';
 import type { TechStackItem } from '@/lib/types';
 
 export async function GET() {
-    const items = readData<TechStackItem>('techStack');
+    const items = await readData<TechStackItem>('techStack');
     return NextResponse.json(items);
 }
 
@@ -20,7 +20,7 @@ export async function POST(request: NextRequest) {
             return NextResponse.json({ error: 'Name and Icon Class are required' }, { status: 400 });
         }
 
-        const newItem = addItem('techStack', body);
+        const newItem = await addItem('techStack', body);
         return NextResponse.json(newItem, { status: 201 });
     } catch (error) {
         return NextResponse.json({ error: 'Internal Server Error' }, { status: 500 });

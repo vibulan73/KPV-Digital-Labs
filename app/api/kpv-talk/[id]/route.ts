@@ -8,7 +8,7 @@ export async function GET(
     { params }: { params: Promise<{ id: string }> }
 ) {
     const { id } = await params;
-    const item = getItemById<KPVTalk>('kpvTalk', id);
+    const item = await getItemById<KPVTalk>('kpvTalk', id);
 
     if (!item) {
         return NextResponse.json({ error: 'Item not found' }, { status: 404 });
@@ -30,11 +30,11 @@ export async function PUT(
         const { id } = await params;
         const body = await request.json();
 
-        if (!getItemById('kpvTalk', id)) {
+        if (!await getItemById('kpvTalk', id)) {
             return NextResponse.json({ error: 'Item not found' }, { status: 404 });
         }
 
-        const updated = updateItem('kpvTalk', id, body);
+        const updated = await updateItem('kpvTalk', id, body);
         return NextResponse.json(updated);
     } catch (error) {
         return NextResponse.json({ error: 'Internal Server Error' }, { status: 500 });
@@ -52,7 +52,7 @@ export async function DELETE(
 
     try {
         const { id } = await params;
-        if (!deleteItem('kpvTalk', id)) {
+        if (!await deleteItem('kpvTalk', id)) {
             return NextResponse.json({ error: 'Item not found' }, { status: 404 });
         }
         return NextResponse.json({ success: true });

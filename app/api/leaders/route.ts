@@ -4,7 +4,7 @@ import { verifyToken } from '@/lib/jwt';
 import type { Leader } from '@/lib/types';
 
 export async function GET() {
-    const items = readData<Leader>('leaders');
+    const items = await readData<Leader>('leaders');
     return NextResponse.json(items);
 }
 
@@ -20,7 +20,7 @@ export async function POST(request: NextRequest) {
             return NextResponse.json({ error: 'Name and Title are required' }, { status: 400 });
         }
 
-        const newItem = addItem('leaders', body);
+        const newItem = await addItem('leaders', body);
         return NextResponse.json(newItem, { status: 201 });
     } catch (error) {
         return NextResponse.json({ error: 'Internal Server Error' }, { status: 500 });

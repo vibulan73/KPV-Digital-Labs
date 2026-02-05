@@ -8,7 +8,7 @@ export async function GET(
     { params }: { params: Promise<{ id: string }> }
 ) {
     const { id } = await params;
-    const projects = readData<Project>('projects');
+    const projects = await readData<Project>('projects');
     const project = projects.find((p) => p.id === id);
     if (!project) {
         return NextResponse.json({ error: 'Not Found' }, { status: 404 });
@@ -28,7 +28,7 @@ export async function PUT(
 
     try {
         const body = await request.json();
-        const updated = updateItem('projects', id, body);
+        const updated = await updateItem('projects', id, body);
         return NextResponse.json(updated);
     } catch (error: any) {
         if (error.message === 'Item not found') {
@@ -49,7 +49,7 @@ export async function DELETE(
     }
 
     try {
-        deleteItem('projects', id);
+        await deleteItem('projects', id);
         return NextResponse.json({ success: true });
     } catch (error: any) {
         if (error.message === 'Item not found') {

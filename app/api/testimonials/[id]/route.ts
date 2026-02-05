@@ -8,7 +8,7 @@ export async function GET(
     { params }: { params: Promise<{ id: string }> }
 ) {
     const { id } = await params;
-    const testimonial = getItemById<Testimonial>('testimonials', id);
+    const testimonial = await getItemById<Testimonial>('testimonials', id);
 
     if (!testimonial) {
         return NextResponse.json({ error: 'Testimonial not found' }, { status: 404 });
@@ -30,11 +30,11 @@ export async function PUT(
         const { id } = await params;
         const body = await request.json();
 
-        if (!getItemById('testimonials', id)) {
+        if (!await getItemById('testimonials', id)) {
             return NextResponse.json({ error: 'Testimonial not found' }, { status: 404 });
         }
 
-        const updated = updateItem('testimonials', id, body);
+        const updated = await updateItem('testimonials', id, body);
         return NextResponse.json(updated);
     } catch (error) {
         return NextResponse.json({ error: 'Internal Server Error' }, { status: 500 });
@@ -52,7 +52,7 @@ export async function DELETE(
 
     try {
         const { id } = await params;
-        if (!deleteItem('testimonials', id)) {
+        if (!await deleteItem('testimonials', id)) {
             return NextResponse.json({ error: 'Testimonial not found' }, { status: 404 });
         }
         return NextResponse.json({ success: true });

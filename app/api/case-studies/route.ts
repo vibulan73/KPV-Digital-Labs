@@ -4,7 +4,7 @@ import { verifyToken } from '@/lib/jwt';
 import type { CaseStudy } from '@/lib/types';
 
 export async function GET() {
-    const items = readData<CaseStudy>('caseStudies');
+    const items = await readData<CaseStudy>('caseStudies');
     return NextResponse.json(items);
 }
 
@@ -20,7 +20,7 @@ export async function POST(request: NextRequest) {
             return NextResponse.json({ error: 'Title and Client are required' }, { status: 400 });
         }
 
-        const newItem = addItem('caseStudies', body);
+        const newItem = await addItem('caseStudies', body);
         return NextResponse.json(newItem, { status: 201 });
     } catch (error) {
         return NextResponse.json({ error: 'Internal Server Error' }, { status: 500 });

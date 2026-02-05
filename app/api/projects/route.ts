@@ -4,7 +4,7 @@ import { verifyToken } from '@/lib/jwt';
 import type { Project } from '@/lib/types';
 
 export async function GET() {
-    const projects = readData<Project>('projects');
+    const projects = await readData<Project>('projects');
     return NextResponse.json(projects);
 }
 
@@ -20,7 +20,7 @@ export async function POST(request: NextRequest) {
             return NextResponse.json({ error: 'Title and description are required' }, { status: 400 });
         }
 
-        const newProject = addItem('projects', body);
+        const newProject = await addItem('projects', body);
         return NextResponse.json(newProject, { status: 201 });
     } catch (error) {
         return NextResponse.json({ error: 'Internal Server Error' }, { status: 500 });

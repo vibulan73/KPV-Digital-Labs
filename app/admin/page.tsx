@@ -26,10 +26,10 @@ function StatCard({ title, value, change, label, icon: Icon, color }: any) {
 
 export default async function AdminDashboard() {
     // Load stats data
-    const careers = readData<Career>("careers");
-    const services = readData<Service>("services");
-    const employees = readData<Employee>("employees");
-    const testimonials = readData<any>("testimonials");
+    const careers = await readData<Career>("careers");
+    const services = await readData<Service>("services");
+    const employees = await readData<Employee>("employees");
+    const testimonials = await readData<any>("testimonials");
 
     const recentCareers = careers.slice(0, 3);
 

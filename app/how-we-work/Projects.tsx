@@ -15,7 +15,12 @@ export default function Projects() {
       try {
         const res = await fetch("/api/projects");
         const data = await res.json();
-        setProjects(data);
+        if (Array.isArray(data)) {
+          setProjects(data);
+        } else {
+          console.error("Projects data is not an array:", data);
+          setProjects([]);
+        }
       } catch (error) {
         console.error("Failed to fetch projects", error);
       } finally {

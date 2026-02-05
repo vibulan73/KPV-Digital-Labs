@@ -4,7 +4,7 @@ import { verifyToken } from '@/lib/jwt';
 import type { Service } from '@/lib/types';
 
 export async function GET() {
-    const services = readData<Service>('services');
+    const services = await readData<Service>('services');
     return NextResponse.json(services);
 }
 
@@ -23,7 +23,7 @@ export async function POST(request: NextRequest) {
             return NextResponse.json({ error: 'Title and Description are required' }, { status: 400 });
         }
 
-        const newService = addItem('services', body);
+        const newService = await addItem('services', body);
         return NextResponse.json(newService, { status: 201 });
     } catch (error) {
         console.error('Error creating service:', error);

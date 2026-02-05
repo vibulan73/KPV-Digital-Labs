@@ -4,7 +4,7 @@ import { verifyToken } from '@/lib/jwt';
 import type { KPVTalk } from '@/lib/types';
 
 export async function GET() {
-    const items = readData<KPVTalk>('kpvTalk');
+    const items = await readData<KPVTalk>('kpvTalk');
     return NextResponse.json(items);
 }
 
@@ -20,7 +20,7 @@ export async function POST(request: NextRequest) {
             return NextResponse.json({ error: 'Title and Video URL are required' }, { status: 400 });
         }
 
-        const newItem = addItem('kpvTalk', body);
+        const newItem = await addItem('kpvTalk', body);
         return NextResponse.json(newItem, { status: 201 });
     } catch (error) {
         return NextResponse.json({ error: 'Internal Server Error' }, { status: 500 });

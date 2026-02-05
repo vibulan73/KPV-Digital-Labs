@@ -8,7 +8,7 @@ export async function GET(
     { params }: { params: Promise<{ id: string }> }
 ) {
     const { id } = await params;
-    const career = getItemById<Career>('careers', id);
+    const career = await getItemById<Career>('careers', id);
 
     if (!career) {
         return NextResponse.json({ error: 'Career not found' }, { status: 404 });
@@ -32,11 +32,11 @@ export async function PUT(
         const body = await request.json();
 
         // Check if exists
-        if (!getItemById('careers', id)) {
+        if (!await getItemById('careers', id)) {
             return NextResponse.json({ error: 'Career not found' }, { status: 404 });
         }
 
-        const updatedCareer = updateItem('careers', id, body);
+        const updatedCareer = await updateItem('careers', id, body);
         return NextResponse.json(updatedCareer);
     } catch (error) {
         console.error('Error updating career:', error);
@@ -50,13 +50,13 @@ export async function DELETE(
 ) {
     // Verify authentication
     const token = request.cookies.get('auth-token')?.value;
-    if (!token || !verifyToken(token)) {
+    if (!token || !(await verifyToken(token))) {
         return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
     }
 
     try {
         const { id } = await params;
-        const deleted = deleteItem('careers', id);
+        const deleted = await deleteItem('careers', id);
 
         if (!deleted) {
             return NextResponse.json({ error: 'Career not found' }, { status: 404 });
